@@ -84,9 +84,19 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 100px;
-
+  right: -100px;
   background-color: orange;
   border-radius: 50%;
+}
+
+.bounce {
+  height: 100px;
+  right: -100px;
+  top: calc(50% - 50px);
+  width: 100px;
+  background-color: orange;
+  border-radius: 50%;
+  animation: bounce 1s both;
 }
 
 .list {
