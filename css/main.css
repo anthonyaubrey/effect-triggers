@@ -124,3 +124,48 @@ div {
 
   color: mediumpurple;
 }
+
+@keyframes expand {
+
+  0% {
+    max-height: 0;
+  }
+
+  100% {
+
+    max-height: 1.5em;
+  }
+}
+
+@keyframes bounce {
+
+  0% {
+    right: -100px;
+    top: 40px;
+  }
+
+  25% {
+    top: 10px;
+  }
+
+  40% {
+    top: 40px;
+  }
+
+  60% {
+    top: 10px;
+  }
+
+  70% {
+    top: 30px;
+  }
+
+  95% {
+    top: 10px;
+  }
+
+  100% {
+    right: 150px;
+    top: 40px;
+  }
+}
